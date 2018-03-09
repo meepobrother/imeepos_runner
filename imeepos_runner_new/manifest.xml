@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[小明跑腿]]></name>
+		<identifie><![CDATA[imeepos_runner_new]]></identifie>
+		<version><![CDATA[13.1]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[小明跑腿区域保护方案落地]]></ability>
+		<description><![CDATA[小明跑腿区域保护方案落地]]></description>
+		<author><![CDATA[imeepos]]></author>
+		<url><![CDATA[]]></url>
+	</application>
+	<platform>
+		<subscribes></subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="false" />
+		<card embed="true" />
+		<supports>
+			<item type="app" />
+			<item type="wxapp" />
+			<item type="plugin" />
+		</supports>
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="首页" do="index" state="" direct="true" />
+			<entry title="我的" do="home" state="" direct="true" />
+		</cover>
+		<menu>
+			<entry title="管理首页" do="index" state="" direct="false" />
+		</menu>
+		<home>
+			<entry title="小明跑腿" do="index" state="" direct="false" />
+		</home>
+		<profile>
+			<entry title="小明跑腿" do="index" state="" direct="true" />
+		</profile>
+		<shortcut>
+			<entry title="小明跑腿" do="index" state="" direct="false" />
+		</shortcut>
+		<page>
+			<entry title="发布任务" do="/imeepos_runner/pages/post/task" state="" direct="" />
+		</page>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
